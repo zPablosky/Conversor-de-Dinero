@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Dinero</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <div class="modal_Choose_Currency_From">
+        <div class="wrapper_Modal">
+            <div class="modal_header">
+                <span>Select Currency</span>
+                <button class="closeModalChoose"><i class="ri-close-line"></i></button>
+            </div>
+
+            <div class="input_searching_currency">
+                <i class="ri-search-line"></i>
+                <input type="text" name="" id="" placeholder="Search currency (e.g. USD, EURO)">
+            </div>
+
+            <div class="container_cards_currency">
+                    PUPULAR CURRENCIES
+    
+                <div class="cardsPopulars_From">
+                        <!-- <div class="cardCurrency">
+                            <div class="cardInfoData">
+                                <div class="cardCurrencyImg">
+                                    <img src="https://flagcdn.com/us.svg" alt="">
+                                </div>
+            
+                                <div class="name_Currency">
+                                    <span>USD</span>
+                                    United States Dollar
+                                </div>
+                            </div>
+        
+                            <button class="select_check">
+                                <i class="ri-check-line"></i>
+                            </button>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal_Choose_Currency_To">
+        <div class="wrapper_Modal">
+            <div class="modal_header">
+                <span>Select Currency</span>
+                <button class="closeModalChoose"><i class="ri-close-line"></i></button>
+            </div>
+
+            <div class="input_searching_currency">
+                <i class="ri-search-line"></i>
+                <input type="text" name="" id="" placeholder="Search currency (e.g. USD, EURO)">
+            </div>
+
+            <div class="container_cards_currency">
+                    PUPULAR CURRENCIES
+    
+                <div class="cardsPopulars_To">
+                        <!-- <div class="cardCurrency">
+                            <div class="cardInfoData">
+                                <div class="cardCurrencyImg">
+                                    <img src="https://flagcdn.com/us.svg" alt="">
+                                </div>
+            
+                                <div class="name_Currency">
+                                    <span>USD</span>
+                                    United States Dollar
+                                </div>
+                            </div>
+        
+                            <button class="select_check">
+                                <i class="ri-check-line"></i>
+                            </button>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="title">
+            <i class="ri-shining-2-fill"></i>
+            Progessional Currency Converter
+        </div>
+
+        <div class="info_title">
+            High precision real time exchange rates for global institutional markets <br> and professional trade analysis.
+        </div>
+    </header>
+
+    <div class="container_Convert">
+        <div class="options_Convert">
+            <label for="">
+                AMOUNT
+                <input type="number" class="inputAmount" placeholder="$ 1,000,00">
+            </label>
+
+            <div class="select_Options">
+                 FROM
+                
+                 <div class="container_Options">
+                    <div class="container_option_From">
+                        <div class="card_option_From">
+                            <div>
+                                <span class="currentCurrencyFrom">USD</span>
+                                <span class="currentNameCurrencyFrom">Dólar Estadounidense</span>
+                            </div>
+        
+                            <div>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="option_invert">
+                <button class="investCurrency"><i class="ri-arrow-left-right-fill"></i></button>
+            </div>
+
+            <div class="select_Options">
+                TO
+               
+                <div class="container_Options">
+                    <div class="container_option_To">
+                        <div class="card_option_To">
+                            <div>
+                                <span class="currentCurrencyTo">EUR</span>
+                                <span class="currentNameCurrencyTo">Euro</span>
+                            </div>
+        
+                            <div>
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+           
+           <div class="start_convert">
+                <button class="convert_Currency">
+                    Convert 
+                    <i class="ri-arrow-right-s-line"></i>
+                </button>
+           </div>
+        </div>
+
+        <div class="view_Data_Convert">
+            <div class="container_Convert_Total">
+                <span>TOTAL CONVERTED AMOUT</span>
+                <div class="amoutTotal">
+                    924.50
+                    <span>EUR</span>
+                </div>
+            </div>
+
+            <div class="container_Date_info">
+                <span>MARKET STATUS</span>
+                <span class="dateInfo">Oct 24, 2023, 14:35 UTC</span>
+                <span>
+                    <i class="ri-numbers-fill"></i>
+                    View Historical Analysis
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

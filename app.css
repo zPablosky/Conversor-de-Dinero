@@ -1,0 +1,364 @@
+body{
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 3em 0px;
+    text-align: center;
+    margin-top: -180px;
+}
+
+header .title{
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: #12122e;
+}
+
+header .title i{
+    color: #0464f3;
+    font-size: 26px;
+}
+
+header .info_title{
+    font-size: 15px;
+    color: #52566e;
+}
+
+.container_Convert{
+    background-color: #fff;
+    padding: 24px 26px;
+    border-radius: 14px;
+    box-shadow: 8px 12px 26px 18px rgba(0, 0, 0, 0.144);
+    margin-top: 20px;
+}
+
+.options_Convert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #cdcdcf;
+}
+
+.options_Convert label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #52566e;
+    font-weight: 700;
+}
+
+.options_Convert label input{
+    padding: 20px 14px;
+    border: 1px solid #52566e60;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #12122e;
+    font-weight: 600;
+    background-color: #e9f3fc;
+    outline: #0464f3;
+}
+
+.options_Convert label input::placeholder{
+    color: #12122e;
+}
+
+.select_Options{
+    color: #52566e;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container_Options .card_option_From,
+.container_Options .card_option_To{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 20px 14px;
+    width: 240px;
+    height: 22px;
+    border: 1px solid #52566e60;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #e9f3fc;
+    cursor: pointer;
+}
+
+.container_Options .card_option_From div:nth-child(1) ,
+.container_Options .card_option_To div{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    color: #52566e;
+    transition: all .3s ease;
+}
+
+.container_Options .card_option_From:hover,
+.container_Options .card_option_To:hover{
+    background-color: #e2e9f0;
+    transition: all .3s ease;
+}
+
+.container_Options .card_option_From div span:nth-child(1), 
+.container_Options .card_option_To div span:nth-child(1){
+    font-size: 18px;
+    color: #12122e;
+    font-weight: 700;
+}
+
+
+
+.container_Options .card_option_From div i,
+.container_Options .card_option_To div i{
+    color: #12122e;
+}
+
+.option_invert button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    color: #0464f3;
+    box-shadow: 1px 8px 8px 5px rgba(0, 0, 0, 0.24);
+    font-size: 1.8em;
+    font-weight: 600;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.start_convert button{
+    background-color: #0450f3;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.start_convert button:hover{
+    background-color: #0464f3;
+    transition: all .3s ease;
+}
+
+.start_convert button i{
+    font-size: 17px;
+}
+
+.view_Data_Convert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    color: #3838f8;
+}
+
+.view_Data_Convert .container_Convert_Total, 
+.view_Data_Convert .container_Date_info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.view_Data_Convert .container_Convert_Total div:nth-child(2) {
+    color: #12122e;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.view_Data_Convert .container_Convert_Total div span:nth-child(1) {
+    color: #0450f3;
+}
+
+.view_Data_Convert .container_Convert_Total div:nth-child(3){
+    background-color: #d7dce0e1;
+    border-radius: 10px;
+    padding: 4px 12px;
+    color: #12122e;
+    font-weight: 600;
+}
+
+.view_Data_Convert .container_Date_info span:nth-child(1){
+    color: #023196ce;
+    font-weight: 600;
+    text-align: right;
+}
+
+.view_Data_Convert .container_Date_info span:nth-child(2){
+    color: #12122e;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.view_Data_Convert .container_Date_info span:nth-child(3){
+    border: 1px solid #93baf5;
+    border-radius: 12px;
+    padding: 4px 16px;
+    text-align: right;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.view_Data_Convert .container_Date_info span:nth-child(3):hover{
+    background-color: #93baf5;
+    transition: all .3s ease;
+}
+
+.modal_Choose_Currency_From,
+.modal_Choose_Currency_To{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(32, 32, 46, 0.527);
+}
+
+.wrapper_Modal{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 450px;
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+.wrapper_Modal .modal_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #12122e;
+    font-weight: 600;
+}
+
+.wrapper_Modal .modal_header button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    color: #52566e;
+    font-size: 18px;
+}
+
+.wrapper_Modal .input_searching_currency{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: 1px solid #b3cffa;
+    border-radius: 6px;
+    margin-top: 16px;
+}
+
+.wrapper_Modal .input_searching_currency input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    color: #52566e;
+    width: 100%;
+}
+
+.wrapper_Modal .container_cards_currency{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 28px;
+    color: #52566e;
+    font-weight: 600;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all .1s ease;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency:hover{
+    background-color: #a3c5f8ab;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency .cardInfoData{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency .cardCurrencyImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfc2d6;
+    border: 1px solid #fff;
+    width: 44px;
+    height: 44px;
+    max-width: 44px;
+    height: 44px;
+    border-radius: 100px;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency .cardCurrencyImg img{
+    width: 40px;
+    height: 40px;
+    max-width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency .name_Currency{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    color: #52566e;
+    font-size: 13px;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency .name_Currency span{
+    color: #12122e;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wrapper_Modal .container_cards_currency .cardCurrency button{
+    border: none;
+    background-color: transparent;
+    color: #0450f3;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.display_view{
+    display: none;
+}
