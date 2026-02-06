@@ -237,6 +237,7 @@ header .info_title{
     justify-content: center;
     align-items: center;
     position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background: rgba(32, 32, 46, 0.527);
@@ -361,4 +362,58 @@ header .info_title{
 
 .display_view{
     display: none;
+
+}
+
+@media (max-width: 400px){
+    header{
+        margin-top: 225px;
+    }
+
+    header .title{
+        font-size: 1.5em;
+    }
+
+    .container_Convert{
+        margin-top: 5px;
+    }
+
+    .options_Convert {
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .options_Convert label input{
+        padding: 20px 12px;
+    }
+
+    .wrapper_Modal{
+        width: 300px;
+    }
+
+    .view_Data_Convert{
+        font-size: 14px;
+    }
+
+    .view_Data_Convert .container_Date_info span:nth-child(3){
+       opacity: 0;
+    }
+
+    .wrapper_Modal .container_cards_currency .cardCurrency .cardCurrencyImg{
+        width: 46px;
+        height: 46px;
+    }
+
+    .wrapper_Modal .container_cards_currency .cardCurrency .cardCurrencyImg img{
+        width: 46px;
+        height: 46px;
+    }
+
+    .wrapper_Modal .container_cards_currency .cardCurrency .name_Currency span{
+        font-size: 18px;
+    }
+
+    .wrapper_Modal .container_cards_currency .cardCurrency .name_Currency{
+        font-size: 16px;
+    }
 }
