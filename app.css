@@ -17,7 +17,6 @@ header{
     flex-direction: column;
     gap: 4px;
     text-align: center;
-    margin-top: -180px;
 }
 
 header .title{
@@ -362,14 +361,13 @@ header .info_title{
 
 .display_view{
     display: none;
-
 }
 
-@media (max-width: 400px){ 
-    header{
-        
-    }
-    
+@media (max-width: 1420px) {
+    margin-top: -180px;
+}
+
+@media (max-width: 400px){  
     header .title{
         font-size: 1.5em;
     }
@@ -417,6 +415,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
