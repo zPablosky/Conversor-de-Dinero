@@ -366,9 +366,7 @@ header .info_title{
 }
 
 @media (max-width: 400px){ 
-    header{
-        margin-top: 95px;
-    }
+    
 
     header .title{
         font-size: 1.5em;
@@ -417,6 +415,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
