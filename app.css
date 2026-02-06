@@ -125,8 +125,6 @@ header .info_title{
     font-weight: 700;
 }
 
-
-
 .container_Options .card_option_From div i,
 .container_Options .card_option_To div i{
     color: #12122e;
@@ -240,6 +238,7 @@ header .info_title{
     width: 100%;
     height: 100vh;
     background: rgba(32, 32, 46, 0.527);
+    padding-bottom: 3em;
 }
 
 .wrapper_Modal{
@@ -430,6 +429,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
