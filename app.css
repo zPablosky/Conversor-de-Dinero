@@ -17,7 +17,7 @@ header{
     gap: 4px;
     padding: 3em 0px;
     text-align: center;
-    margin-top: -180px;
+    
 }
 
 header .title{
@@ -367,7 +367,7 @@ header .info_title{
 
 @media (max-width: 400px){ 
     header{
-        margin-top: 25px;
+        
     }
     
     header .title{
@@ -417,6 +417,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
