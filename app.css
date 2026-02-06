@@ -236,7 +236,7 @@ header .info_title{
     justify-content: center;
     align-items: center;
     position: absolute;
-    position: fixed;
+    
     width: 100%;
     height: 100vh;
     background: rgba(32, 32, 46, 0.527);
@@ -415,6 +415,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
