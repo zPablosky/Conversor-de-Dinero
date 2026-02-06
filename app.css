@@ -367,15 +367,11 @@ header .info_title{
 
 @media (max-width: 400px){ 
     header{
-        margin-top: 185px;
+        margin-top: 175px;
     }
 
     header .title{
         font-size: 1.5em;
-    }
-
-    .container_Convert{
-        margin-top: 5px;
     }
 
     .options_Convert {
@@ -417,6 +413,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
