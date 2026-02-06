@@ -374,6 +374,10 @@ header .info_title{
         font-size: 1.5em;
     }
 
+    .container_Convert{
+        height: 700px;
+    }
+    
     .options_Convert {
         justify-content: center;
         gap: 14px;
@@ -413,6 +417,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
