@@ -407,6 +407,11 @@ header .info_title{
        opacity: 0;
     }
 
+    .modal_Choose_Currency_From,
+    .modal_Choose_Currency_To {
+        height: 120vh;
+    }
+    
     .wrapper_Modal .container_cards_currency .cardCurrency .cardCurrencyImg{
         width: 46px;
         height: 46px;
@@ -425,6 +430,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
