@@ -367,6 +367,10 @@ header .info_title{
 }
 
 @media (max-width: 400px){
+    body{
+        height: 110vh;
+    }
+    
     header{
         margin-top: 225px;
     }
@@ -418,4 +422,5 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
