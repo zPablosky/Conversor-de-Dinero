@@ -45,6 +45,7 @@ header .info_title{
     border-radius: 14px;
     box-shadow: 8px 12px 26px 18px rgba(0, 0, 0, 0.144);
     margin-top: 20px;
+    padding-botton: 34px;
 }
 
 .options_Convert {
@@ -417,3 +418,4 @@ header .info_title{
         font-size: 16px;
     }
 }
+
