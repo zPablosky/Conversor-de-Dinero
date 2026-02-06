@@ -235,8 +235,8 @@ header .info_title{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
     position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background: rgba(32, 32, 46, 0.527);
@@ -430,6 +430,7 @@ header .info_title{
         font-size: 16px;
     }
 }
+
 
 
 
